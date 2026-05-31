@@ -32,7 +32,7 @@ pytest tests/ -v
 
 ## 🔄 Mudança de escopo — v1.1
 
-**Data:** 28/05/2025
+**Data:** 30/05/2025
 **Motivo:** O cliente de logística solicitou campo de prazo (deadline)
 em cada tarefa para controle de tempo nas entregas.
 **Impacto:** Campo `deadline` adicionado ao modelo Task. Card
