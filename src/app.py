@@ -7,7 +7,6 @@ next_id = 1
 def create_task(title, priority="Media", deadline=None):
     """Cria uma nova tarefa e adiciona à lista."""
     global next_id
-    # Valida que o título não está vazio
     if not title or len(title.strip()) == 0:
         raise ValueError("O título da tarefa não pode ser vazio.")
     task = Task(id=next_id, title=title.strip(),
