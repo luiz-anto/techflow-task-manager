@@ -1,6 +1,5 @@
 from models import Task
 
-# Lista que armazena todas as tarefas (banco de dados em memória)
 tasks = []
 next_id = 1
 
